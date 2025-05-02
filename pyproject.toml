@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "kitpy"
+version = "0.1.0"
+description = "A lightweight Python utility toolkit with reusable functions and helpers for everyday programming tasks"
+authors = ["gabriele-marino <gabmarino.8601@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+pydantic = "^2.10.6"
+pyyaml = "^6.0.2"
+
+[tool.poetry.group.dev.dependencies]
+mypy = "^1.15.0"
+types-pyyaml = "^6.0.12.20241230"
+
+[tool.mypy]
+strict = true
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
