@@ -2,7 +2,7 @@ from typing import Type
 
 import yaml
 
-from kitpy.type_hints import T
+from pykit.type_hints import T
 
 
 class YAMLMixin:

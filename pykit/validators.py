@@ -2,7 +2,7 @@ from typing import Annotated, Sequence
 
 from pydantic import BeforeValidator
 
-from kitpy.type_hints import OneOrSequence, T
+from pykit.type_hints import OneOrSequence, T
 
 
 def ensure_list(

@@ -1,5 +1,5 @@
 [tool.poetry]
-name = "kitpy"
+name = "pykit"
 version = "0.1.0"
 description = "A lightweight Python utility toolkit with reusable functions and helpers for everyday programming tasks"
 authors = ["gabriele-marino <gabmarino.8601@gmail.com>"]
