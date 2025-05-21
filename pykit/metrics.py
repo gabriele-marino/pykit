@@ -1,7 +1,7 @@
 import numpy as np
 from numpy.typing import NDArray
 
-from pykit.type_hints import ArrayLike
+ArrayLike = list[float] | NDArray[np.float64]
 
 
 def _to_float64_array(data: ArrayLike) -> NDArray[np.float64]:
